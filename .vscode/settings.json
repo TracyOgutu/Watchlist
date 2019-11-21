@@ -3,12 +3,11 @@
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        "./app",
+        "./tests",
         "-p",
-        "*_test.py"
+        "test_*.py"
     ],
     "python.testing.pytestEnabled": false,
     "python.testing.nosetestsEnabled": false,
-    "python.testing.unittestEnabled": false,
-    "python.testing.promptToConfigure": false
+    "python.testing.unittestEnabled": true
 }

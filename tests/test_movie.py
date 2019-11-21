@@ -11,7 +11,7 @@
 #         self.assertTrue(isinstance(self.new_movie,Movie)) #checks if the object self.new_movie is an instance of the Movie class.
 
 import unittest
-from app.models import Movie
+from app.model import Movie
 
 class MovieTest(unittest.TestCase):
     '''
